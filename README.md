@@ -9,7 +9,9 @@ IDE       : Android Studio
 Database  : Google Firabase
 
 Here are the contributors:
-- Oğuzhan Özçelik (ozc0)            : database and back-end
-- Barış Ogün Yörük (barisoyoruk)    : front-end
-- Aybala Karakaya (aaybala)         : front-end
-- Halil Özgür Demir (hozgurde)      : front-end
+- Oğuzhan Özçelik (ozc0)              : database and back-end
+- Barış Ogün Yörük (barisoyoruk)      : front-end
+- Aybala Karakaya (aaybala)           : front-end
+- Halil Özgür Demir (hozgurde)        : front-end
+- Mustafa Çağrı Durgut (mcagridurgut) : front-end
+- Yusuf Miraç Uyar (Y-Yosu)           : front-end
