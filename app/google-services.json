@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1024211616964",
+    "firebase_url": "https://bilcalendar.firebaseio.com",
+    "project_id": "bilcalendar",
+    "storage_bucket": "bilcalendar.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1024211616964:android:b9fece62d10c02f476b591",
+        "android_client_info": {
+          "package_name": "com.example.bilcalendar"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1024211616964-38qpk7h9fpccqli7hovc4qco03uvv928.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBqiZEWyCCnW7MaRcui8fqUmqHRL7-qQ68"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1024211616964-38qpk7h9fpccqli7hovc4qco03uvv928.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

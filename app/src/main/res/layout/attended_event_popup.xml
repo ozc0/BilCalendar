@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center">
+
+    <LinearLayout
+        android:id="@+id/linear_layout_for_pop_up"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:id="@+id/event_name_text_for_pop_up"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Event Name"
+            style="@style/TextAppearance.AppCompat.Widget.TextView.SpinnerItem"
+            android:textStyle="bold"
+            android:textSize="24sp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"/>
+
+        <TextView
+            android:id="@+id/event_type_text_for_pop_up"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:text="Event Type"
+            android:textStyle="bold"
+            android:layout_marginBottom="5dp"/>
+
+        <TextView
+            android:id="@+id/organizer_for_pop_up"
+            android:layout_width="wrap_content"
+            style="@style/TextAppearance.AppCompat.Widget.TextView.SpinnerItem"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:text="Organizer:"
+            android:textStyle="bold"
+            android:layout_marginBottom="5dp"/>
+
+        <TextView
+            android:id="@+id/location_for_pop_up"
+            android:layout_width="wrap_content"
+            style="@style/TextAppearance.AppCompat.Widget.TextView.SpinnerItem"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:text="Location:"
+            android:textStyle="bold"
+            android:layout_marginBottom="5dp"/>
+
+        <TextView
+            android:id="@+id/event_quota_for_pop_up"
+            android:layout_width="wrap_content"
+            style="@style/TextAppearance.AppCompat.Widget.TextView.SpinnerItem"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:text="Quota:"
+            android:textStyle="bold"
+            android:layout_marginBottom="5dp"/>
+
+        <TextView
+            android:id="@+id/date_text_for_pop_up"
+            android:layout_width="wrap_content"
+            style="@style/TextAppearance.AppCompat.Widget.TextView.SpinnerItem"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:text="Date:"
+            android:textStyle="bold"
+            android:layout_marginBottom="5dp"/>
+
+        <TextView
+            android:id="@+id/start_time_for_pop_up"
+            android:layout_width="wrap_content"
+            style="@style/TextAppearance.AppCompat.Widget.TextView.SpinnerItem"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:text="Start Time:"
+            android:textStyle="bold"/>
+
+
+        <TextView
+            android:id="@+id/finish_time_for_pop_up"
+            android:layout_width="wrap_content"
+            style="@style/TextAppearance.AppCompat.Widget.TextView.SpinnerItem"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:text="End Time:"
+            android:textStyle="bold"
+            android:layout_marginBottom="5dp"/>
+
+        <TextView
+            android:id="@+id/note_text_for_pop_up"
+            android:layout_width="wrap_content"
+            style="@style/TextAppearance.AppCompat.Widget.TextView.SpinnerItem"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:text="Notes:"
+            android:textStyle="bold"
+            android:layout_marginBottom="5dp"/>
+
+
+        <Button
+            android:id="@+id/add_event_button_for_pop_up"
+            android:layout_width="match_parent"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            style="@style/TextAppearance.AppCompat.Widget.TextView.SpinnerItem"
+            android:textColor="#ffffff"
+            android:layout_height="wrap_content"
+            android:text="REMOVE FROM SCHEDULE"/>
+    </LinearLayout>
+
+</RelativeLayout>

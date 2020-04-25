@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scroll"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/TextInputLayoutOutlinedBoxStyle"
+                app:hintEnabled="false"
+                android:id="@+id/social_event_name_textInput"
+                android:layout_marginHorizontal="20dp">
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Event Name"
+                    android:inputType="text"
+                    app:hintEnabled="false"/>
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="75dp"
+                android:orientation="horizontal"
+                android:id="@+id/social_event_date_layout">
+                <TextView
+                    android:id="@+id/textDateLabel"
+                    style="@style/TextAppearance.AppCompat.Widget.TextView.SpinnerItem"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:text="Event Date"
+                    android:layout_marginHorizontal="20dp"/>
+                <TextView
+                    android:id="@+id/social_event_date_textView"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:layout_gravity="center_vertical"
+                    android:layout_alignParentRight="true"
+                    android:text="StartDate"
+                    android:layout_marginHorizontal="20dp"/>
+            </LinearLayout>
+
+            <View
+                android:layout_marginHorizontal="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="75dp"
+                android:orientation="horizontal"
+                android:id="@+id/social_event_start_time_layout">
+                <TextView
+                    android:id="@+id/textStartLabel"
+                    style="@style/TextAppearance.AppCompat.Widget.TextView.SpinnerItem"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:text="Start Time"
+                    android:layout_marginHorizontal="20dp"/>
+                <TextView
+                    android:id="@+id/social_event_start_time_textView"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:layout_alignParentRight="true"
+                    android:layout_gravity="center_vertical"
+                    android:text="StartTime"
+                    android:layout_marginHorizontal="20dp"/>
+            </LinearLayout>
+
+            <View
+                android:layout_marginHorizontal="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="75dp"
+                android:orientation="horizontal"
+                android:id="@+id/social_event_end_time_layout">
+                <TextView
+                    android:id="@+id/textEndLabel"
+                    style="@style/TextAppearance.AppCompat.Widget.TextView.SpinnerItem"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:text="End Time"
+                    android:layout_marginHorizontal="20dp"/>
+                <TextView
+                    android:id="@+id/social_event_end_time_textView"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:layout_gravity="center_vertical"
+                    android:layout_alignParentRight="true"
+                    android:text="EndTime"
+                    android:layout_marginHorizontal="20dp"/>
+            </LinearLayout>
+
+            <View
+                android:layout_marginHorizontal="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="75dp"
+                android:orientation="horizontal"
+                android:layout_marginBottom="10dp"
+                android:id="@+id/social_event_quota_layout">
+                <TextView
+                    android:id="@+id/textQuotaLabel"
+                    style="@style/TextAppearance.AppCompat.Widget.TextView.SpinnerItem"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:text="Quota"
+                    android:layout_marginHorizontal="20dp"/>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    style="@style/TextInputLayoutOutlinedBoxStyle"
+                    android:gravity="right"
+                    android:layout_alignParentRight="true"
+                    android:layout_gravity="center_vertical"
+                    app:hintEnabled="false"
+                    android:id="@+id/social_event_quota_textInput">
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint=""
+                        android:inputType="number"
+                        android:layout_marginHorizontal="20dp"/>
+                </com.google.android.material.textfield.TextInputLayout>
+
+            </LinearLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/TextInputLayoutOutlinedBoxStyle"
+                app:hintEnabled="false"
+                android:id="@+id/social_event_organizer_name_textInput">
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Organizer Name"
+                    android:inputType="text"
+                    android:layout_marginHorizontal="20dp"/>
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="25dp"
+                style="@style/TextInputLayoutOutlinedBoxStyle"
+                app:hintEnabled="false"
+                android:id="@+id/social_event_location_name_textInput">
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Location"
+                    android:inputType="text"
+                    app:hintEnabled="false"
+                    android:layout_marginHorizontal="20dp"/>
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/TextInputLayoutOutlinedBoxStyle"
+                app:hintEnabled="false"
+                android:id="@+id/social_event_notes_textInput">
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Notes"
+                    android:inputType="text"
+                    android:layout_marginHorizontal="20dp"/>
+            </com.google.android.material.textfield.TextInputLayout>
+
+        </LinearLayout>
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/host_social_event_button"
+            style="@style/Widget.MaterialComponents.FloatingActionButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_margin="24dp"
+            app:srcCompat="@drawable/ic_add_black_24dp"/>
+
+    </RelativeLayout>
+</ScrollView>

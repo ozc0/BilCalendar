@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/day_text_for_flow_page"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="#3B8B8B8B"
+        android:gravity="center_vertical"
+        android:paddingLeft="10dp"
+        android:text="Current Day"
+        android:textColor="@color/color_tab_title"
+        android:textSize="18sp"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:id="@+id/recycler_flow_view">
+
+    </androidx.recyclerview.widget.RecyclerView>
+</LinearLayout>

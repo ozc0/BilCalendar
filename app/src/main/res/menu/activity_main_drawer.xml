@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:showIn="navigation_view">
+
+
+
+    <group android:checkableBehavior="single"
+        android:id="@+id/group">
+
+        <item
+            android:id="@+id/sidebar_account"
+            android:icon="@drawable/ic_account"
+            android:title="Account" />
+        <item
+            android:id="@+id/sidebar_hosted_events"
+            android:icon="@drawable/ic_event_available"
+            android:title="Hosted Events" />
+        <item
+            android:id="@+id/sidebar_settings"
+            android:icon="@drawable/ic_settings"
+            android:title="@string/sidebar_settings" />
+    </group>
+
+    <item android:title="Event filter">
+        <menu>
+            <group android:checkableBehavior="all">
+
+                <item
+                    android:id="@+id/sidebar_individual_events"
+                    android:title="@string/sidebar_individual_events"
+                    android:checkable="true"
+                    app:actionLayout="@layout/widget_check"
+                    app:showAsAction="ifRoom|withText"
+                    android:icon="@drawable/ic_for_sidebar_blue"/>
+                <item
+                    android:id="@+id/sidebar_social_events"
+                    android:title="@string/sidebar_social_events"
+                    android:checkable="true"
+                    app:actionLayout="@layout/widget_check"
+                    app:showAsAction="ifRoom|withText"
+                    android:icon="@drawable/ic_for_sidebar_red"/>
+                <item
+                    android:id="@+id/sidebar_club_events"
+                    android:title="@string/sidebar_club_events"
+                    android:checkable="true"
+                    app:actionLayout="@layout/widget_check"
+                    app:showAsAction="ifRoom|withText"
+                    android:icon="@drawable/ic_for_sidebar_green"/>
+
+                <item
+                    android:id="@+id/sidebar_empty_event"
+                    android:title="" />
+
+                <item
+                    android:id="@+id/sidebar_planned_events"
+                    android:title="Planned Events"
+                    android:checkable="true"
+                    app:actionLayout="@layout/widget_check"
+                    app:showAsAction="ifRoom|withText"/>
+
+                <item
+                    android:id="@+id/sidebar_available_events"
+                    android:title="Available Events"
+                    android:checkable="true"
+                    app:actionLayout="@layout/widget_check"
+                    app:showAsAction="ifRoom|withText"/>
+            </group>
+        </menu>
+    </item>
+
+
+</menu>

@@ -1,0 +1,70 @@
+<resources>
+    <string name="app_name">BilCalendar01</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+
+
+    <string name="sidebar_account">Account</string>
+    <string name="sidebar_hosted_events">Hosted Events</string>
+    <string name="sidebar_settings">Settings</string>
+    <string name="sidebar_event_filter">Event filter</string>
+    <string name="sidebar_individual_events">Individual Events</string>
+    <string name="sidebar_social_events">Social Events</string>
+    <string name="sidebar_club_events">Club Events</string>
+    <string name="sidebar_planned_events">Planned Events</string>
+    <string name="sidebar_available_events">Available Events</string>
+
+    <string name="menu_send">Send</string>
+    <string name="name_for_login_page">Name:</string>
+    <string name="phone_number_for_login_page">Phone Number:</string>
+    <string name="sign_up_for_login_page">Sign Up</string>
+    <string name="app_name_for_login_page">BilCalendar</string>
+    <string name="accounts_for_account_information_page">My Account</string>
+    <string name="accounts_information_for_account_information_page">Account Information</string>
+    <string name="club_managements_for_account_information_page">Club Managements</string>
+    <string name="add_new_administration_for_account_information_page">Add New Administration</string>
+    <string name="settings_for_settings_page">Settings</string>
+    <string name="remainder_settings">Remainder Settings</string>
+
+    <string name="time00">00.00</string>
+    <string name="time01">01.00</string>
+    <string name="time02">02.00</string>
+    <string name="time03">03.00</string>
+    <string name="time04">04.00</string>
+    <string name="time05">05.00</string>
+    <string name="time06">06.00</string>
+    <string name="time07">07.00</string>
+    <string name="time08">08.00</string>
+    <string name="time09">09.00</string>
+    <string name="time10">10.00</string>
+    <string name="time11">11.00</string>
+    <string name="time12">12.00</string>
+    <string name="time13">13.00</string>
+    <string name="time14">14.00</string>
+    <string name="time15">15.00</string>
+    <string name="time16">16.00</string>
+    <string name="time17">17.00</string>
+    <string name="time18">18.00</string>
+    <string name="time19">19.00</string>
+    <string name="time20">20.00</string>
+    <string name="time21">21.00</string>
+    <string name="time22">22.00</string>
+    <string name="time23">23.00</string>
+    <string name="sun">SUN</string>
+    <string name="mon">MON</string>
+    <string name="tue">TUE</string>
+    <string name="wed">WED</string>
+    <string name="thu">THU</string>
+    <string name="fri">FRI</string>
+    <string name="sat">SAT</string>
+
+</resources>

@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar_for_account_information_page"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFFFF"
+        app:layout_scrollFlags="scroll|enterAlways"
+        app:theme="@style/ToolbarTheme"
+        app:popupTheme="?attr/actionBarTheme">
+
+        <TextView
+            android:id="@+id/title_for_account_information_page"
+            android:textColor="@android:color/black"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/accounts_for_account_information_page"
+            android:textAppearance="@style/TextAppearance.Widget.AppCompat.Toolbar.Title"
+            android:gravity="center"/>
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <TextView
+        android:id="@+id/account_information_for_account_information_page"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center_vertical"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        android:text="@string/accounts_information_for_account_information_page"
+        style="@style/TextAppearance.AppCompat.Widget.TextView.SpinnerItem"
+        android:textStyle="bold"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:orientation="horizontal"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:background="@color/color_on_secondary"/>
+
+    <TextView
+        android:id="@+id/name_label_for_account_information_page"
+        android:layout_height="75dp"
+        android:layout_width="match_parent"
+        android:gravity="center_vertical"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        style="@style/TextAppearance.AppCompat.Widget.TextView.SpinnerItem"
+        android:text="@string/name_for_login_page"
+        android:textColor="@color/color_on_secondary"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:orientation="horizontal"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:background="@color/color_tab_title"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="75dp">
+
+        <TextView
+            android:id="@+id/phone_number_label_for_account_information_page"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
+            style="@style/TextAppearance.AppCompat.Widget.TextView.SpinnerItem"
+            android:text="@string/phone_number_for_login_page"
+            android:textColor="@color/color_on_background"/>
+
+        <TextView
+            android:id="@+id/edit_phone_number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Edit"
+            android:textAlignment="textEnd"
+            android:textSize="18sp"
+            android:textColor="@color/color_primary"
+            android:paddingEnd="20dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:orientation="horizontal"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:background="@color/color_tab_title"/>
+
+    <TextView
+        android:id="@+id/mail_label_for_account_information_page"
+        android:layout_height="75dp"
+        android:layout_width="match_parent"
+        android:gravity="center_vertical"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        style="@style/TextAppearance.AppCompat.Widget.TextView.SpinnerItem"
+        android:text="Email: "
+        android:textColor="@color/color_on_secondary"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:orientation="horizontal"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:background="@color/color_tab_title"/>
+
+    <TextView
+        android:id="@+id/empty_text_for_account_information_page"
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:gravity="center_vertical"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
+            style="@style/TextAppearance.AppCompat.Widget.TextView.SpinnerItem"
+            android:layout_gravity="center"
+            android:text="@string/club_managements_for_account_information_page"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:orientation="horizontal"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:background="@color/color_on_secondary"/>
+
+
+    <ListView
+        android:id="@+id/list_view_for_account_information_page"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginEnd="10dp"
+        android:layout_marginStart="10dp"/>
+
+</LinearLayout>
